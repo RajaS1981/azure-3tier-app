@@ -5,7 +5,7 @@ import os
 app = Flask(__name__)
 
 # PostgreSQL Connection
-DB_HOST = "mypgserver.postgres.database.azure.com"
+DB_HOST = "mytierpgserver.postgres.database.azure.com"
 DB_NAME = "mydatabase"
 DB_USER = "adminuser"
 DB_PASSWORD = "MyPassword123!"
