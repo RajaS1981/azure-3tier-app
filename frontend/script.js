@@ -1,5 +1,5 @@
 function fetchData() {
-    fetch('https://<your-api-url>/data')
+    fetch('https://mybackendapi.azurewebsites.net/data')
     .then(response => response.json())
     .then(data => {
         document.getElementById("result").innerText = JSON.stringify(data);
